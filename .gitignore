@@ -1,0 +1,53 @@
+# Ignore build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# Ignore generated configuration files
+*.cmake
+*.cbp  # Code::Blocks project files
+*.sln  # Visual Studio solution files
+*.vcxproj*
+*.xcodeproj
+
+# Ignore compiled binaries and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.code-workspace
+*.clangd
+*.clang-format
+*.ccls-cache/
+
+# Ignore .out files
+**/*.out
+
+# Ignore CMake build files in any subfolder
+**/.cx_metadata.json
+**/CMakeLists.txt
+**/CMakeCache.txt
+**/CMakeFiles/
+**/cmake_install.cmake
+**/Makefile
+**/*.cmake
+
